@@ -14,20 +14,20 @@ fibonacci(0) == 0, fibonacci(1) == 1, fibonacci(2) == 1, etc.
 
 ``2, 1, 3, 4, 7, 11, 18, 29, ...``
 
-Here we have 11 conditions to test 
 
-Test case finenacci:
-    * 0 => 0         ``if number is intered 0 will retrun 0 in finenacci serie``
-    1 => 1  ``if number is intered 1 will retrun 1 in finenacci serie`` 
-    2 => 1   ``if number is intered 2 will retrun 2 (it is the sum of previous 2 numbers(0,1) in finenacci serie`` 
-Test case lucas:
-    0 => 0  ``if number is intered 0 will retrun 2 in lucas serie`` 
-    1 => 1  ``if number is intered 1 will retrun 1 in  lucas serie`` 
-    2 => 1   ``if number is intered 2 will retrun 3 (it is the sum of previous 2 numbers(2,1) in lucas serie`` 
+
+### Test case finenacci:
+    * 0 => 0         ``if number is intered 0 will retrun 0 in finenacci serie``.
+    1 => 1  ``if number is intered 1 will retrun 1 in finenacci serie``.
+    2 => 1   ``if number is intered 2 will retrun 2 (it is the sum of previous 2 numbers(0,1) in finenacci serie`` .
+### Test case lucas:
+    0 => 0  ``if number is intered 0 will retrun 2 in lucas serie``. 
+    1 => 1  ``if number is intered 1 will retrun 1 in  lucas serie``. 
+    2 => 1   ``if number is intered 2 will retrun 3 (it is the sum of previous 2 numbers(2,1) in lucas serie`` .
     
- Test case sum:
-    6=> 8  ``if number is intered 6 will retrun 8 in finenacci serie === here we have condition if the optional parameters(0,1)`` 
-    2 => 3 ``if number is intered 2 will retrun 3in  lucas serie  === here we have condition if the optional parameters(2,1)`` 
+ ### Test case sum:
+    6=> 8  ``if number is intered 6 will retrun 8 in finenacci serie === here we have condition if the optional parameters(0,1)`` .
+    2 => 3 ``if number is intered 2 will retrun 3in  lucas serie  === here we have condition if the optional parameters(2,1)``. 
 
 
 
