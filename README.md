@@ -1,3 +1,5 @@
+
+[github link for repo math-series](https://github.com/Sajanader/math-series.git)
 ### IN This repo will be used mathmatical series like :
 
 **The Fibonacci Series** is a numeric series starting with the integers 0 and 1. In this series, the next integer is determined by summing the previous two. This gives us:
@@ -15,7 +17,7 @@ fibonacci(0) == 0, fibonacci(1) == 1, fibonacci(2) == 1, etc.
 Here we have 11 conditions to test 
 
 Test case finenacci:
-    0 => 0  ``if number is intered 0 will retrun 0 in finenacci serie`` 
+    * 0 => 0         ``if number is intered 0 will retrun 0 in finenacci serie``
     1 => 1  ``if number is intered 1 will retrun 1 in finenacci serie`` 
     2 => 1   ``if number is intered 2 will retrun 2 (it is the sum of previous 2 numbers(0,1) in finenacci serie`` 
 Test case lucas:
@@ -30,6 +32,5 @@ Test case lucas:
 
 
 
-[github link](https://github.com/Sajanader/math-series.git)
 
 
