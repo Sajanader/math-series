@@ -14,19 +14,22 @@ fibonacci(0) == 0, fibonacci(1) == 1, fibonacci(2) == 1, etc.
 
 Here we have 11 conditions to test 
 
-tests/test_math_series.py::test_version PASSED      ``to test the version``                         
-tests/test_series.py::test_version PASSED                               
-tests/test_series.py::test_fibonacci_zero PASSED        ``to test the start number in finenacci serire which is 0``                 
-tests/test_series.py::test_fibonacci_one PASSED          ``to test the first number in finenacci serire which is 1``                 
-tests/test_series.py::test_fibonacci_two PASSED ``to test the second number in finenacci serire which is sumation of start number and first one``                 
-tests/test_series.py::test_lucas_zero PASSED ``to test the start number in finenacci serire which is 2``                             
-tests/test_series.py::test_lucas_one PASSED   ``to test the first number in finenacci serire which is 1``                           
-tests/test_series.py::test_lucas_two PASSED  ``to test the second number in finenacci serire which is sumation of start number and first one``                         
-tests/test_series.py::test_sum_six PASSED                               
-tests/test_series.py::test_sum_two_lucas PASSED                            
-tests/test_series.py::test_sum_two_fibonacci PASSED     
+Test case finenacci:
+    0 => 0  ``if number is intered 0 will retrun 0 in finenacci serie`` 
+    1 => 1  ``if number is intered 1 will retrun 1 in finenacci serie`` 
+    2 => 1   ``if number is intered 2 will retrun 2 (it is the sum of previous 2 numbers(0,1) in finenacci serie`` 
+Test case lucas:
+    0 => 0  ``if number is intered 0 will retrun 2 in lucas serie`` 
+    1 => 1  ``if number is intered 1 will retrun 1 in  lucas serie`` 
+    2 => 1   ``if number is intered 2 will retrun 3 (it is the sum of previous 2 numbers(2,1) in lucas serie`` 
+    
+ Test case sum:
+    6=> 8  ``if number is intered 6 will retrun 8 in finenacci serie === here we have condition if the optional parameters(0,1)`` 
+    2 => 3 ``if number is intered 2 will retrun 3in  lucas serie  === here we have condition if the optional parameters(2,1)`` 
 
 
-(github link)[https://github.com/Sajanader/math-series.git]
+
+
+[github link](https://github.com/Sajanader/math-series.git)
 
 
